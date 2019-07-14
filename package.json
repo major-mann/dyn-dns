@@ -1,0 +1,18 @@
+{
+  "name": "dyn-dns-update",
+  "version": "0.0.1",
+  "description": "A small application which can fetch the (public) IP and update it on a DNS provider",
+  "main": "src/index.js",
+  "keywords": [
+    "dns",
+    "dyndns",
+    "dynamic",
+    "cloudflare"
+  ],
+  "author": "Calvin Mann <calvinmann@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "node-fetch": "^2.6.0"
+  }
+}
